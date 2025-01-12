@@ -74,7 +74,7 @@ local MiscTab = Window:NewTab("Misc")
     MiscSection:NewSlider("Walkspeed", "Changes Your Walkspeed", 200, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
     end)
-    MiscSection:NewSlider("SliderText", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    MiscSection:NewSlider("Jumppower", "Changes Your Jumppower", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
     end)
     MiscSection:NewTextBox("Teleport To Player", "Doesn't Need To Be Exact", function(PlayerName)
